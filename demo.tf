@@ -5,3 +5,4 @@ data "dns_a_record_set" "pubic" {
 output "ips" {
   value = data.dns_a_record_set.pubic
 }
+#changed through branch
